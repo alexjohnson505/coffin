@@ -27,7 +27,7 @@ body {
 .page {
   position: relative;
   z-index: 10;
-  margin-left: 270px;
+  margin-left: 170px;
   background: #fff;
   width: auto;
   box-shadow: -4px 0 10px -5px rgba(0, 0, 0, 0.8);
@@ -40,7 +40,7 @@ body {
   top: 0;
   bottom: 0;
   left: 0;
-  width: 280px;
+  width: 180px;
   margin-left: 0;
   overflow: auto;
 }
