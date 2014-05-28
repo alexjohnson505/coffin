@@ -39,7 +39,7 @@
     var touchSelector = '[data-coffin=touch]';
 
     // window size cache
-    var windowSize = document.body.offsetWidth;
+    var windowSize = if (document.body) document.body.offsetWidth;
 
     // if isTouch, map declaritive touch listeners to click events
     if (isTouch) clickSelector += ', ' + touchSelector;
